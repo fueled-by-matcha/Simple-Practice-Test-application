@@ -10,15 +10,15 @@
     <TextView
         android:id="@+id/welcomeView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Welcome to the Simple Practice Test app!"
+        android:layout_height="251dp"
         android:gravity="center"
+        android:text="Welcome to the Simple Practice Test app!"
         android:textSize="36sp" />
 
     <Space
         android:id="@+id/space1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="111dp" />
 
     <TextView
         android:id="@+id/selectSubject"
@@ -31,27 +31,28 @@
     <Space
         android:id="@+id/space2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="10dp" />
 
     <Button
         android:id="@+id/subject1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:gravity ="center"
         android:text="Button" />
 
     <Space
         android:id="@+id/space3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="77dp" />
 
     <Button
-        android:id="@+id/subject2button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/subject2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
         android:text="Button" />
 
     <Space
         android:id="@+id/space4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="77dp" />
 </LinearLayout>

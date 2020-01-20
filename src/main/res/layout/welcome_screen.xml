@@ -28,31 +28,46 @@
         android:gravity="center"
         android:textSize="20sp" />
 
-    <Space
-        android:id="@+id/space2"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="10dp" />
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/subject1"
-        android:layout_width="160dp"
-        android:layout_height="50dp"
-        android:gravity ="center"
-        android:text="Button" />
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
 
-    <Space
-        android:id="@+id/space3"
-        android:layout_width="match_parent"
-        android:layout_height="77dp" />
+        <Button
+            android:id="@+id/subject1"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Subject 1" />
 
-    <Button
-        android:id="@+id/subject2"
-        android:layout_width="160dp"
-        android:layout_height="50dp"
-        android:text="Button" />
+        <Space
+            android:id="@+id/space3"
+            android:layout_width="match_parent"
+            android:layout_height="77dp" />
 
-    <Space
-        android:id="@+id/space4"
-        android:layout_width="match_parent"
-        android:layout_height="77dp" />
+        <Button
+            android:id="@+id/subject2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:text="Subject 2"
+            android:textColor="#0A0A0A" />
+
+        <Space
+            android:id="@+id/space4"
+            android:layout_width="match_parent"
+            android:layout_height="77dp" />
+    </LinearLayout>
+
 </LinearLayout>

@@ -9,6 +9,10 @@
         android:layout_height="wrap_content"
         android:text="TextView" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +30,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="26dp" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
@@ -36,7 +40,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="33dp" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
@@ -46,7 +50,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="27dp" />
 
             <RadioButton
                 android:id="@+id/radioButton4"
@@ -56,14 +60,25 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="83dp" />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
         </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/holo_blue_light"
+            android:text="Button" />
     </LinearLayout>
 
 </LinearLayout>

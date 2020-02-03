@@ -19,7 +19,7 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select the amount of questions." />
+        android:text="Select the number of questions." />
 
     <SeekBar
         android:id="@+id/setNumberQuestions"

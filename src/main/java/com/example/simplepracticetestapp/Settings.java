@@ -26,6 +26,7 @@ public class Settings extends AppCompatActivity {
         passingGrade = (EditText) findViewById(R.id.setGrade);
         setNum = (SeekBar) findViewById(R.id.setNumberQuestions);
         infoCheck = (TextView) findViewById(R.id.checkInfo);
+
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -10,11 +10,31 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="Settings"
+        android:textSize="36sp" />
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/setNumberQuestions"
         android:layout_width="match_parent"
-        android:layout_height="87dp" />
+        android:layout_height="87dp"
+        android:max="20" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Passing Grade" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a number"
+        android:inputType="textPersonName" />
+
 </LinearLayout>

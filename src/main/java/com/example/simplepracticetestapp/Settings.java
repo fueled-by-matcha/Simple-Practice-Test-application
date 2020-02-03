@@ -31,6 +31,7 @@ public class Settings extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 progressChangedValue = progress;
+                questionNum = progressChangedValue;
             }
 
             @Override
@@ -54,6 +55,7 @@ public class Settings extends AppCompatActivity {
                     passGrade = Integer.parseInt(value);
                     Bundle extras = new Bundle();
                     extras.putInt("Passing Grade", passGrade);
+                    extras.putInt("Number of questions", questionNum);
                     intent.putExtras(extras);
                     startActivity(intent);
                 }

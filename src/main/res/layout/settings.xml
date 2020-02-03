@@ -58,6 +58,13 @@
             android:layout_height="50dp"
             android:background="@android:color/holo_blue_light"
             android:text="Start" />
+
+        <TextView
+            android:id="@+id/checkInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#B40B2C" />
     </LinearLayout>
 
 </LinearLayout>

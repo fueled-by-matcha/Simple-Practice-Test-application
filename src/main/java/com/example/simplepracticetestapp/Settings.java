@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Settings extends AppCompatActivity {
     private int questionNum;
@@ -25,8 +26,25 @@ public class Settings extends AppCompatActivity {
         start = (Button) findViewById(R.id.startBtn);
         passingGrade = (EditText) findViewById(R.id.setGrade);
         setNum = (SeekBar) findViewById(R.id.setNumberQuestions);
-        infoCheck = (TextView) findViewById(R.id.checkInfo);
+        setNum.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            int progressChangedValue = 0;
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                progressChangedValue = progress;
+            }
 
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                Toast.makeText(Settings.this, "The quiz will be " + progressChangedValue + " questions long",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        infoCheck = (TextView) findViewById(R.id.checkInfo);
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

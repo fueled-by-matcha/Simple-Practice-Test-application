@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/questionText"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:text="TextView"
@@ -24,7 +24,7 @@
             android:layout_height="match_parent">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButtonA"
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
                 android:clickable="true"
@@ -35,7 +35,7 @@
                 android:layout_height="26dp" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButtonB"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:clickable="true"
@@ -46,7 +46,7 @@
                 android:layout_height="33dp" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioButtonC"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:clickable="true"
@@ -57,7 +57,7 @@
                 android:layout_height="27dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButtonD"
                 android:layout_width="match_parent"
                 android:layout_height="67dp"
                 android:clickable="true"
@@ -78,7 +78,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/nextBtn"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:layout_centerInParent="true"
